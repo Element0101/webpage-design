@@ -21,16 +21,23 @@ body {
 }
 
 
-img {
+.sub-img {
     color: black;
-    border: 2px, black, solid;
-    align-self: center;
+    border: 3px, #3882f6, solid;
+    border-radius: 10px;
+   
+    
 }
 
-p {
-    display: flex;
-    align-self: flex-end;
+.main-image {
+    width: 480px;
+    height: auto;
+    color: black;
+    border: 3px, gray, solid;
+    border-radius: 10px;
 }
+
+
 .header-1 {
     display: flex;
     justify-content: space-around;
@@ -40,11 +47,39 @@ p {
 .header-2 {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    font-size: 48px;
-    font-weight: 900;
+    flex-flow: wrap row;
+    
 
 }
+.discreption {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+.secondery-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button-1 {
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: max-content;
+    background-color: #3882f6;
+    border: 2px, #f9faf8, solid;
+    color: #f9faf8;
+}
+
+
+
 .links {
     display: flex;
     justify-content: flex-end;
@@ -55,15 +90,29 @@ p {
     display: flex;
     flex-direction: column;
     background-color: #f9faf8;
-    color: black;
+    color: #1f2937;
     align-items: center;
     padding-bottom: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    
   
 }
 
 .images {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.subtexts {
+    display: flex;
+    width: 470px;
+    justify-content: space-evenly;
+    font-size: 15px;
+    gap: 20px;
+    font-weight: 100;
 }
 
 .section-3 {
@@ -73,11 +122,50 @@ p {
     align-items: center;
     background-color: lightgrey;
     padding: 50px;
+
+}
+
+.quote {
+    width: 60%;
+    font-size: 36px;
+    color: #1f2937;
+
+}
+
+.quoter {
+    width: 45%;
+    align-self: flex-end;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    background-color: #3882f6;
+    padding: 20px 100px;
+    border-radius: 20px;
+}
+
+.button-2 {
+    margin-top: 28px ;
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: max-content;
+    background-color: #3882f6;
+    border: 2px, #f9faf8, solid;
+    color: #f9faf8;
 }
 
 .footer {
     display: flex;
     background-color: #1f2937;
     justify-content: center;
-
 }
